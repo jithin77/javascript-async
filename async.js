@@ -4,7 +4,7 @@ $(document).ready(function () {
     const userurl = "https://jsonplaceholder.typicode.com/users";
     doWork(posturl, userurl)
 })
-
+class
 
 async function doWork(posturl, userurl) {
     const posts = await getItems(posturl);
